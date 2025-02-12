@@ -12,24 +12,15 @@ export default function Test() {
         Select an option below to analyze your heart health.
       </Text>
 
-      <TouchableOpacity
-        style={styles.button}
-        onPress={() => router.push("/test/ecg-upload")}
-      >
+      <TouchableOpacity style={styles.button} onPress={() => router.push("/test/ecg-upload")}>
         <Text style={styles.buttonText}>Upload ECG Report</Text>
       </TouchableOpacity>
 
-      <TouchableOpacity
-        style={styles.button}
-        onPress={() => router.push("/test/connect-watch")}
-      >
+      <TouchableOpacity style={styles.button} onPress={() => router.push("/test/connect-watch")}>
         <Text style={styles.buttonText}>Connect Smartwatch</Text>
       </TouchableOpacity>
 
-      <TouchableOpacity
-        style={styles.button}
-        onPress={() => router.push("/test/heart-quiz")}
-      >
+      <TouchableOpacity style={styles.button} onPress={() => router.push("/test/heart-quiz")}>
         <Text style={styles.buttonText}>Take Health Assessment</Text>
       </TouchableOpacity>
     </View>
